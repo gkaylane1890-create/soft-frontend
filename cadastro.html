@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Mural de Cães</title>
+
+<style>
+    body {
+        background-color: #dcdcdc;
+        font-family: "Times New Roman", Times, serif;
+        margin: 0;
+    }
+
+    /* cada "página" */
+    body > div {
+        width: 800px;
+        margin: 40px auto;
+        padding: 10px 20px;
+        page-break-after: always;
+    }
+
+    /* topo (data e título pequeno) */
+    div > div {
+        display: flex;
+        justify-content: space-between;
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        font-size: 32px;
+        font-weight: bold;
+        margin: 10px 0;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 1.3;
+    }
+
+    img {
+        width: 320px;
+        margin: 15px 0;
+    }
+
+    /* último texto (rodapé) */
+    body > div:last-child p {
+        font-size: 26px;
+        font-weight: bold;
+    }
+</style>
+</head>
+
+<body>
+
+<!-- PÁGINA 1 -->
+<div>
+    <div>
+        <span>24/03/2026, 21:28</span>
+        <span>Mural de Cães</span>
+    </div>
+
+    <h1>Mural - Encontre aqui cães desaparecidos</h1>
+
+    <p>
+        BEAGLE, desapareceu de casa a 2 dias. Por favor ajudem. Ele precisa de medicamentos contínuos ele é Cardíaco.
+        Desapareceu prox. Metro Paulista. Atende pelo nome de Toby... Entrar em contato com 7777-7777 - Rose
+    </p>
+
+    <img src="/multimidia/Beagle.JPG">
+
+    <p>
+        BULL- Cachorro encontrado na Lapa - SP, muito dócil, estava muito assustado.
+        Contato com Fábio - 8888-9999
+    </p>
+</div>
+
+<!-- PÁGINA 2 -->
+<div>
+    <div>
+        <span>24/03/2026, 21:28</span>
+        <span>Mural de Cães</span>
+    </div>
+
+    <img src="/multimidia/BullTerrier.jpg">
+
+    <p>
+        COLLIE- Perdi um cão dia 28 na rua Julia Rica as 17:00h, ele esta na minha família ha 4 onze anos.
+        Obrigado ! Contato com Luís - 7788-9999
+    </p>
+
+    <img src="/multimidia/Collie.jpg">
+</div>
+
+<!-- PÁGINA 3 -->
+<div>
+    <div>
+        <span>24/03/2026, 21:28</span>
+        <span>Mural de Cães</span>
+    </div>
+
+    <p>
+        Atendimento: atendimento@desaparecidos.com - (0XX) 99999-9999 / (0XX) 88888-8888
+    </p>
+</div>
+
+</body>
+</html>
